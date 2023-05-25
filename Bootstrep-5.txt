@@ -1,0 +1,236 @@
+
+         ========================================================== Boostrep Assingment ==========================================================
+
+
+Q.1    What are the advantages of Bootstrap ?
+
+Ans. 1. Bootstrap is Easy to Use: 
+	Bootstrap is very easy and quite simple to use for designing and development. Being a new framework there is a lot to learn from it. 
+	It can be used with CSS, LESS or SaaS etc.
+
+          2. An Alliance is Quite Easy: 
+	Bootstrap is a framework which is easily integrated with bulk frameworks uninterrupted with existing sites or the new one.
+
+          3. Fast and Time-Saving Framework: 
+	Bootstrap is an agile framework which is quite faster than other frameworks. It saves time due to its standard ready-made coding blocks, 
+	responsiveness, and cross-browser capabilities.
+
+           4. Reinforcement of Grids: 
+	One more recommendable feature is that bootstrap holds 12 column grid styles and supports responsiveness, counterbalance, and embedded elements.
+
+           5. Adhere to Basics:
+	 Bootstrap is a framework which holds base styling HTML elements like, tables, typography, buttons, forms, images, lists, and icons etc.
+
+           6. A Pack of JavaScript Fundamentals: 
+	Bootstrap supports Javascript Components so one don't require knowledge of scripting. It comprises JavaScript components like,
+	 tooltips, modal windows, alerts etc. to add functionalities easily.
+
+           7. Support is Amazing: 
+	Bootstrap is well-known for its big support community and agile response or online solution for the problems or queries. 
+	It also offers a great documentation along with examples and demo. It provides solutions to freshers and veterans alike.
+
+           8. Bootstrap is totally Customizable: 
+	It is developer friendly and can be customized as per the project requirements. Common CSS, utilities, Javascript Components, 
+	and components can compose the appearance to create ease for developers.
+
+           9. Agile Responsive: 
+	Bootstrap is a fully responsive platform supporting fluid grid layout. It crafts a mobile ready site smoothly and easily and sets web design as per 
+	the dimensions of the particular device.
+
+           10. Bootstrap's Consistency: 
+	Websites or mobile applications made with bootstrap technology can make you feel the awesome pairing of developers and designers ensuring consistency.
+
+           11. Frequent Updates: 
+	It provides regular updates and makes the whole eco-system hefty and robust according to the time.
+
+
+
+Q.2  What is a Bootstrap Container, and how does it work ?
+
+Ans.  Bootstrap Containers are the most basic layout element in Bootstrap. Bootstrap Containers are very essential and basic building blocks of bootstrap
+          that wrap a page’s content.
+          It’s responsible for setting and aligning content within it according to viewport or given device. Containers are defined within the container class (.container). 
+          In other words, we can say that containers are established the width for the layout to give the content. 
+          Elements and content are added within the container.
+
+         Containers are used for many purposes such as –
+
+         1. It requires use with the default grid system.
+         2. To establish width for the layout to give web content.
+         3. To provide responsive fixed behavior of any web project. 
+         4. To sets the content margin dealing with the responsive behavior of your layout.
+
+
+Q.3  What are the default Bootstrap text settings ?
+
+Ans . Bootstrap 5 Default Settings
+	Bootstrap 5 uses a default font-size of 1rem (16px by default), and its line-height is 1.5. In addition, 
+	all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px by default).
+
+
+Q.4  What do you know about the Bootstrap Grid System ?
+
+Ans .  The Bootstrap Grid System is used for layout, specifically Responsive Layouts. Understanding how it works is vital to understanding Bootstrap. 
+           The Grid is made up of groupings of Rows & Columns inside 1 or more Containers.
+
+           The Bootstrap Grid can be used alone, without the Bootstrap JavaScript and other CSS Components. You just need to download and reference the
+           “bootstrap-grid.css” which contains the Grid and Flexbox classes. More info on only using the Bootstrap Grid CSS is here in the docs.
+
+              The Rules of the Grid:
+	1. Columns must be the immediate child of a Row.
+	2. Rows are only used to contain Columns, nothing else.
+	3. Rows should be placed inside a Container.
+
+	Example :
+	
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+    		      <meta charset="UTF-8">
+    		      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    		      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		      <title>Document</title>
+    		      <link rel="stylesheet" href="">
+		</head>
+		<body>
+    		<div class="row">
+  		       <div class="col-md-8">
+    		            <div class="pb-3">
+      			      .col-md-8
+    		            </div>
+    		<div class="row">
+      		     <div class="col-md-6">.col-md-6</div>
+      		    <div class="col-md-6">.col-md-6</div>
+    		 </div>
+  	                </div>
+  	                <div class="col-md-4">.col-md-4</div>
+	               </div>
+	              </body>
+	              </html>
+		
+
+
+
+Q.5  What is the difference between Bootstrap 4 and Bootstrap 5 ?
+
+Ans.
+
+
+Q.6   What is a Button Group, and what is the class for a basic Button Group ?
+
+Ans.  “Button Groups” in Bootstrap is a class of name “btn-group” which is used to create series of buttons in groups (without spaces) vertically or horizontally.
+
+            This is the basic syntax of the button group class where each button has its own class of “btn”.
+
+	<div class="btn-group">
+    	      <button type="button" class="btn">Click</button>
+	</div>
+
+	Buttons have a default border-radius on the first and last buttons of the group.  
+
+	Adding Styles on Buttons: Bootstrap allows you to add styles to your buttons using the following classes:
+
+	.btn-default
+	.btn-primary
+	.btn-success
+	.btn-info
+	.btn-warning
+	.btn-danger
+	.btn-link
+
+
+Q.7   How can you use Bootstrap to make thumbnails ?
+
+Ans. Thumbnail Image:
+ 	A thumbnail is a small image that represents a larger image. Bootstrap has an easy way to do this with thumbnails.
+ 	Bootstrap’s .thumbnail class is used to show linked images in grids (grid system), a thumbnail is created using class .thumbnail within the element <a>.  
+	The class .col-sm-* and .col-md-* (where * represent number ), it is used to create grids of the images. 
+
+
+Q.8  In Bootstrap 4, what is flexbox ?
+
+Ans.  Flexbox is a new layout mode of CSS3 which is officially called CSS Flexible Box Layout Module. 
+          The main advantage of this layout mode is that it makes the following layout tasks easier:
+
+	1. alignment of items
+	2. specification of the layout direction
+	3. specification of layout order of items
+
+	within a layout container. Especially when defining a layout for dynamic or even unknown screen sizes the Flexbox layout mode is a powerful tool.
+ 	You can apply Flexbox layout by using CSS properties defined by CSS3. Bootstrap 4 makes it even more easy by offering a set of ready made CSS classes 
+	for applying Flexbox layout to elements. In the following tutorial we’ll take a deeper look the Bootstrap 4 CSS Flexbox layout classes.
+
+
+Q.9  How can one create an alert in Bootstrap ?
+
+Ans. Alert boxes are used quite often to stand out the information that requires immediate attention of the end users such as warning, error or confirmation messages.
+
+         With Bootstrap you can easily create elegant alert messages for various purposes by adding the contextual classe
+         (e.g., .alert-success, .alert-warning, .alert-info etc.) to the .alert base class. You can also add an optional close button to dismiss any alert.
+
+         Bootstrap provides total 8 different types of alerts. The following example will show you the most commonly used alerts, 
+         which are: success, error or danger, warning and info alerts.
+
+	Example 
+
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+    		      <meta charset="UTF-8">
+    		      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    		      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		      <title>Document</title>
+    		      <link rel="stylesheet" href="">
+		</head>
+		<body>	
+   
+                  	<!-- Success Alert -->
+		<div class="alert alert-success alert-dismissible fade show">
+  		        <strong>Success!</strong> Your message has been sent successfully.
+    		        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+		</div>
+
+		<!-- Error Alert -->
+		<div class="alert alert-danger alert-dismissible fade show">
+    		       <strong>Error!</strong> A problem has been occurred while submitting your data.
+    		       <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+		</div>
+
+		<!-- Warning Alert -->
+		<div class="alert alert-warning alert-dismissible fade show">
+    		       <strong>Warning!</strong> There was a problem with your network connection.
+    		       <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+		</div>
+
+		<!-- Info Alert -->
+		<div class="alert alert-info alert-dismissible fade show">
+    		      <strong>Info!</strong> Please read the comments carefully.
+    		      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+		</div>
+		</body>
+	                 </html>
+
+
+Q.10  What is a bootstrap card and how would you create one ?
+
+Ans.  Bootstrap card is a responsive and customizable mobile-friendly content container. 
+          It is essentially an element that wraps children’s elements providing tons of options forcustom card images,headers, footers, 
+          contextual card background colors, and many other options such as card background colors.
+
+	Cards can be used to group related content, such as on a page to display related content about an article, 
+ 	an image thumbnail, an article title, article preview text, and an article link. 
+
+       	 Bootstrap cards are created with as minimal markup as possible. Even though they are created with minimal markup,
+	 Bootstrap cards still provide you with a ton of options for its customization. Cards are built with flexbox as such, 
+	 they offer responsiveness out of the box and can blend well with other Bootstrap components.
+	
+	1. Card image: This you added by adding the card-img-top class to the img tag and then passing the image src to the img tag.
+	2. Card body: This section contains the main content of Bootstrap cards. This is where you place the card title and card text.
+	3. Card title: This contains the title of your card. You use the class card-title to set the title of your Bootstrap card.
+	4. Card text: This refers to the main text seen on the Bootstrap card. To create a card text, inside the card body; 
+		    `card-body`, you create an element and pass the `card-text` class to it.
+	5. You are also able to use Bootstrap buttons in your cards. You use the btn-primary class in the snippet above to create a primary button.
+	    Bootstrap buttons allow a ton of customization to them by using btn classes. 
+	    We wrote an article explaining how to create and customize your buttons with Bootstrap.
+	6.Card footer: The card footer in Bootstrap card is the section where you place the ending contents of your card.
+
